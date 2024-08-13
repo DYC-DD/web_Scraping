@@ -116,7 +116,7 @@ def scroll():
         ''')
 
         # 強制等待，此時若有新元素生成，瀏覽器內部高度會自動增加
-        sleep(5)
+        sleep(3)
         
         # 透過執行 js 語法來取得捲動後的當前總高度
         innerHeight = driver.execute_script('return document.documentElement.scrollHeight;')
